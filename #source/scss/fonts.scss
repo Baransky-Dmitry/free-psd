@@ -1,0 +1,28 @@
+/* Fonts */
+//<Подключаем шрифты>=======================================================================================
+
+// font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+// font-family: 'PT Serif', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+// font-family: 'Myriad Pro', serif;
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+// font-family: 'FontAwesome', serif;
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/FontAwesome.eot');
+	src: local('☺'), url('../fonts/FontAwesome.woff') format('woff'), url('../fonts/FontAwesome.ttf') format('truetype'), url('../fonts/FontAwesome.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+//</Подключаем шрифты>=======================================================================================

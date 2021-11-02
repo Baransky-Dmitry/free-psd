@@ -1,0 +1,91 @@
+/* Header */
+//======================================================================================================
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    // .header__top
+    &__top {
+        background-color: #303030;
+    }
+    &__contacts::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    &__phone, &__email {
+        line-height: 45px;
+        letter-spacing: 0.025em;
+        position: relative;
+    }
+    // .header__phone
+    &__phone {
+        padding-left: 20px;
+        padding-right: 30px;
+        color: #cbcacb;
+        &::before {
+            content: "\f095";
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0;
+            color: #ffcd21;
+        }
+    }
+    // .header__email
+    &__email {
+        padding-left: 24px;
+        color: #d3d2d2;
+        &::before {
+            content: "\f003";
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0;
+            color: #ffcd21;
+        }
+    }
+    // .header__btn
+    &__btn {
+        float: right;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 36px;
+        color: #1b1b1b;
+        background-color: #ffc222;
+        padding: 5px 20px 4px 50px;
+        position: relative;
+        &::before {
+            content: "\f0b1";
+            font-family: 'icomoon';
+            position: absolute;
+            left: 22px;
+            color: #1b1b1b;
+        }
+    }
+    // .header__content
+    &__content {
+        padding: 34px 0 23px;
+    }
+    // .header__content-inner
+    &__content-inner {
+        @include flexbetween();
+    }
+    // .header__logo
+    &__logo {
+        img {max-width: 100%;}
+    }
+}
+
+.menu {
+    a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 36px;
+        color: #323232;
+        border: 1px solid transparent;
+        padding: 0 16px;
+        @include anim(0.3s,0s);
+    }
+    a:hover {border-color: #ffc222;}
+    li+li{padding-left: 10px;}
+}
+
+//======================================================================================================
