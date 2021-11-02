@@ -1,4 +1,92 @@
 /* Footer */
 //====================================================================================================
-footer{}
+.footer {
+    // .footer__content
+    &__content {
+        padding: 29px 37px;
+        background-color: #595959;
+    }
+    // .footer__inner
+    &__inner {
+        @include flexbetween();
+        // .header__btn
+        .header__btn {
+            float: none;
+        }
+    }
+    // .footer__info
+    &__info {
+        max-width: 345px;
+    }
+    // .footer__title
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 36px;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+    }
+    // .footer__text
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #d3d2d2;
+        margin-bottom: 20px;
+    }
+    // .footer__list
+    &__list {
+        padding-top: 10px;
+        li {
+            display: block;
+            margin-top: 10px;
+            &:first-child a::before {content: "\f095";}
+            &:last-child a::before {content: "\f041";}
+        }
+        a {
+            font-family: 'Roboto', sans-serif;
+            line-height: 24px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #ffffff;
+            padding-left: 33px;
+            position: relative;
+            &::before {
+                content: "\f003";
+                font-family: 'icomoon';
+                position: absolute;
+                left: 0;
+                color: #ffc222;
+            }
+        }
+    }
+    // .footer__map
+    &__map {
+        padding-top: 12px;
+        iframe {
+            width: 632px;
+            height: 251px;
+            border: 1px solid #dadada;
+        }
+    }
+    // .footer__copy
+    &__copy {
+        padding: 15px 0;
+        background-color: #303030;
+    }
+    // .footer__copy-text
+    &__copy-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+    }
+    
+}
+
 //====================================================================================================
