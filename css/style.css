@@ -924,6 +924,15 @@ h6 {
 .animated-modal input[type="submit"] {
   background-color: #ffc222;
   border: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.animated-modal input[type="submit"]:hover {
+  color: #fefefe;
 }
 
 /* Footer */
@@ -1028,3 +1037,5 @@ h6 {
   letter-spacing: 0.05em;
   color: #ffffff;
 }
+
+/* Media */
