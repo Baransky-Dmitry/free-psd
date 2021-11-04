@@ -59,6 +59,11 @@
             left: 22px;
             color: #1b1b1b;
         }
+        // .header__btn-menu
+        &-menu {
+            display: none;
+            font-size: 28px;
+        }
     }
     // .header__content
     &__content {
