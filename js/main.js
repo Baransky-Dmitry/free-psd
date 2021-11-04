@@ -10,4 +10,9 @@ $(document).ready(function () {
     });
     // Select
     $('input, select').styler();
+    // Mobile menu
+    $('.header__btn-menu').on('click', function(){
+        $('.menu ul').slideToggle();
+    });
+    
 });
