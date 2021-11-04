@@ -1044,6 +1044,7 @@ h6 {
 }
 
 /* Media */
+/* Header */
 @media (max-width: 698px) {
   .header__btn {
     float: none;
@@ -1097,3 +1098,5 @@ h6 {
     display: block !important;
   }
 }
+
+/* Slider */
