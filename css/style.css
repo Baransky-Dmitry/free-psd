@@ -1091,3 +1091,9 @@ h6 {
     padding-right: 30px;
   }
 }
+
+@media (min-width: 698px) {
+  .menu ul {
+    display: block !important;
+  }
+}
