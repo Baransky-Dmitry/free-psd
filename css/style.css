@@ -1086,6 +1086,9 @@ h6 {
     text-align: center;
   }
   /* Form */
+  .form {
+    padding-bottom: 25px;
+  }
   .form__box-inner {
     display: block;
   }
@@ -1095,6 +1098,14 @@ h6 {
   }
   .form__box-inner .jq-selectbox__select {
     margin-bottom: 10px;
+  }
+  /* Advantages */
+  .advantages__inner {
+    display: block;
+  }
+  .advantages__item {
+    max-width: 100%;
+    margin-bottom: 30px;
   }
 }
 
