@@ -1,18 +1,53 @@
 /*<MEDIA>============================================================================================*/
 /* Services */
 @media (max-width: 1156px) {
-    .services__items {
-        display: block;
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 80%;
+    min-height: 325px;
+    margin: 30px auto;
+  }
+  /* Form */
+  .form__inner {
+    background: none;
+  }
+  /* News */
+  .news {
+    padding-bottom: 55px;
+  }
+  .news__inner {
+    display: block;
+  }
+  .news__slider {
+    max-width: 100%;
+    margin-bottom: 70px;
+  }
+  .news__blog {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+    &::after {
+      content: "";
+      clear: both;
+      display: block;
     }
-    .services__item {
-        max-width: 80%;
-        min-height: 325px;
-        margin: 30px auto;
-    }
-    /* Form */
-    .form__inner {
-        background: none;
-    }
+  }
+  .news__images {
+    float: left;
+    margin-right: 50px;
+  }
+  /* Footer */
+  .footer__inner {
+    display: block;
+  }
+  .footer__map {
+    max-width: 100%;
+  }
+  .footer__info {
+    margin-bottom: 20px;
+  }
 }
 //====================================================================================================
 /* Slider */
@@ -22,45 +57,48 @@
       display: none !important;
     }
   }
-  /* Services */
-  .services__top {
-      display: block;
+  /* Services, News */
+  .services__top,
+  .news__top {
+    display: block;
   }
   /* Services, Form, News */
   .services__title-box,
   .form__title-box,
   .news__title-box {
-      padding-left: 0;
-      text-align: center;
-      margin: 0 auto 30px;
-      &::before {
-          display: none;
-      }
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+    &::before {
+      display: none;
+    }
   }
-  .services__btn {
-      text-align: center;
+  /* Services, News */
+  .services__btn,
+  .news__btn {
+    text-align: center;
   }
   /* Form */
   .form {
-      padding-bottom: 25px;
+    padding-bottom: 25px;
   }
   .form__box-inner {
-      display: block;
+    display: block;
   }
-  .form__box-left, 
+  .form__box-left,
   .form__box-right {
-      max-width: 100%;
+    max-width: 100%;
   }
   .form__box-inner .jq-selectbox__select {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   /* Advantages */
   .advantages__inner {
-      display: block;
+    display: block;
   }
   .advantages__item {
-      max-width: 100%;
-      margin-bottom: 30px;
+    max-width: 100%;
+    margin-bottom: 30px;
   }
 }
 //====================================================================================================
@@ -101,37 +139,58 @@
   .header__contacts {
     text-align: center;
   }
+  /* Footer */
+  .footer__info .header__btn {
+    &::before {
+      display: block;
+    }
+  }
 }
 //====================================================================================================
 /* Services */
 @media (max-width: 600px) {
-    .services__items {
-        display: block;
-    }
-    .services__item {
-        max-width: 100%;
-        min-height: 365px;
-        margin: 30px auto;
-    }
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 100%;
+    min-height: 365px;
+    margin: 30px auto;
+  }
 }
-@media (max-width: 375px) {
-    .services__item-text {
-        margin-bottom: 20px;
+/* News */
+@media (max-width: 540px) {
+  .news__slider {
+    padding: 50px 15px 25px 25px;
+    &::before {
+      left: 25px;
     }
+  }
+  .news__slider-inner .slick-btn {
+    bottom: -80px;
+  }
+  .news__slider-inner .slick-next {
+    right: -20px;
+  }
+  .news__slider-inner .slick-disabled {
+    right: 35px;
+  }
+  .news__images {
+    float: none;
+  }
 }
-//====================================================================================================
 /* Slider */
 @media (max-width: 414px) {
   .slider__title {
-      font-size: 24px;
+    font-size: 24px;
   }
   .slider__text {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
 //====================================================================================================
 /* Header */
-@media (max-width: 398px) {
+@media (max-width: 400px) {
   .header__btn {
     &::before {
       display: block;
@@ -142,12 +201,10 @@
   .header__email {
     padding-right: 30px;
   }
-}
-@media (min-width: 698px) {
-  .menu {
-    ul {
-      display: block !important;
-    }
+  /* Services */
+  .services__item-text {
+    margin-bottom: 20px;
   }
 }
-/*</MEDIA>============================================================================================*/
+
+/*</MEDIA>===========================================================================================*/
