@@ -9,6 +9,10 @@
         min-height: 325px;
         margin: 30px auto;
     }
+    /* Form */
+    .form__inner {
+        background: none;
+    }
 }
 //====================================================================================================
 /* Slider */
@@ -22,7 +26,10 @@
   .services__top {
       display: block;
   }
-  .services__title-box {
+  /* Services, Form, News */
+  .services__title-box,
+  .form__title-box,
+  .news__title-box {
       padding-left: 0;
       text-align: center;
       margin: 0 auto 30px;
@@ -33,6 +40,18 @@
   .services__btn {
       text-align: center;
   }
+  /* Form */
+  .form__box-inner {
+      display: block;
+  }
+  .form__box-left, 
+  .form__box-right {
+      max-width: 100%;
+  }
+  .form__box-inner .jq-selectbox__select {
+      margin-bottom: 10px;
+  }
+  
 }
 //====================================================================================================
 /* Header */
@@ -114,8 +133,6 @@
     padding-right: 30px;
   }
 }
-//====================================================================================================
-/* Header */
 @media (min-width: 698px) {
   .menu {
     ul {

@@ -1054,6 +1054,10 @@ h6 {
     min-height: 325px;
     margin: 30px auto;
   }
+  /* Form */
+  .form__inner {
+    background: none;
+  }
 }
 
 /* Slider */
@@ -1065,16 +1069,32 @@ h6 {
   .services__top {
     display: block;
   }
-  .services__title-box {
+  /* Services, Form, News */
+  .services__title-box,
+  .form__title-box,
+  .news__title-box {
     padding-left: 0;
     text-align: center;
     margin: 0 auto 30px;
   }
-  .services__title-box::before {
+  .services__title-box::before,
+  .form__title-box::before,
+  .news__title-box::before {
     display: none;
   }
   .services__btn {
     text-align: center;
+  }
+  /* Form */
+  .form__box-inner {
+    display: block;
+  }
+  .form__box-left,
+  .form__box-right {
+    max-width: 100%;
+  }
+  .form__box-inner .jq-selectbox__select {
+    margin-bottom: 10px;
   }
 }
 
@@ -1156,7 +1176,6 @@ h6 {
   }
 }
 
-/* Header */
 @media (min-width: 698px) {
   .menu ul {
     display: block !important;
