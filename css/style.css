@@ -267,7 +267,7 @@ h6 {
 }
 
 .slider__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 500;
@@ -286,7 +286,7 @@ h6 {
 }
 
 .default-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
@@ -300,7 +300,7 @@ h6 {
 
 .default-btn::after {
   content: "\f105";
-  font-family: 'icomoon';
+  font-family: "icomoon";
   position: absolute;
   right: -13px;
 }
@@ -328,7 +328,7 @@ h6 {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-family: 'icomoon';
+  font-family: "icomoon";
   color: #ffffff;
 }
 
@@ -417,7 +417,7 @@ h6 {
 }
 
 .services__item-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -431,7 +431,7 @@ h6 {
 }
 
 .title-box::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 106px;
   height: 2px;
@@ -441,7 +441,7 @@ h6 {
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 500;
@@ -457,7 +457,7 @@ h6 {
 }
 
 .btn a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -479,7 +479,7 @@ h6 {
 }
 
 .about__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 500;
@@ -583,7 +583,7 @@ h6 {
 
 .form__box-inner .jq-selectbox__trigger-arrow::before {
   content: "\f105";
-  font-family: 'icomoon';
+  font-family: "icomoon";
   position: absolute;
   right: 18px;
   top: 0;
@@ -599,7 +599,7 @@ h6 {
   margin: 2px 0 0;
   padding: 0;
   border: 1px solid #e6e6e6;
-  background: #FFF;
+  background: #fff;
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
@@ -607,21 +607,21 @@ h6 {
 .form__box-inner .jq-selectbox li {
   min-height: 18px;
   padding: 5px 193px 6px 18px;
-  color: #231F20;
+  color: #231f20;
 }
 
 .form__box-inner .jq-selectbox li.selected {
-  background-color: #A3ABB1;
-  color: #FFF;
+  background-color: #a3abb1;
+  color: #fff;
 }
 
 .form__box-inner .jq-selectbox li:hover {
-  background-color: #08C;
-  color: #FFF;
+  background-color: #08c;
+  color: #fff;
 }
 
 .form__box-inner .jq-selectbox li.disabled {
-  color: #AAA;
+  color: #aaa;
 }
 
 .form__box-inner .jq-selectbox li.disabled:hover {
@@ -634,7 +634,7 @@ h6 {
 
 .form__box-inner .jq-selectbox li.optgroup:hover {
   background: none;
-  color: #231F20;
+  color: #231f20;
   cursor: default;
 }
 
@@ -675,7 +675,7 @@ h6 {
 }
 
 .advantages__title {
-  font-family: 'Myriad Pro', serif;
+  font-family: "Myriad Pro", serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -685,7 +685,7 @@ h6 {
 }
 
 .advantages__title::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 40px;
   height: 40px;
@@ -699,7 +699,7 @@ h6 {
 
 .advantages__title::after {
   content: "\f00c";
-  font-family: 'icomoon';
+  font-family: "icomoon";
   font-size: 14px;
   position: absolute;
   top: 9px;
@@ -763,7 +763,7 @@ h6 {
 
 .news__slider::before {
   content: "\f10e";
-  font-family: 'icomoon';
+  font-family: "icomoon";
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
@@ -799,7 +799,7 @@ h6 {
 }
 
 .news__slider-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -818,7 +818,7 @@ h6 {
 }
 
 .news__author {
-  font-family: 'Myriad Pro', serif;
+  font-family: "Myriad Pro", serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -851,7 +851,7 @@ h6 {
 }
 
 .news__blog-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1043,9 +1043,43 @@ h6 {
   color: #fefefe;
 }
 
-/* Media */
+/*<MEDIA>============================================================================================*/
+/* Services */
+@media (max-width: 1156px) {
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 80%;
+    min-height: 325px;
+    margin: 30px auto;
+  }
+}
+
+/* Slider */
+@media (max-width: 900px) {
+  .slider .slick-btn {
+    display: none !important;
+  }
+  /* Services */
+  .services__top {
+    display: block;
+  }
+  .services__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+  .services__title-box::before {
+    display: none;
+  }
+  .services__btn {
+    text-align: center;
+  }
+}
+
 /* Header */
-@media (max-width: 698px) {
+@media (max-width: 700px) {
   .header__btn {
     float: none;
   }
@@ -1081,6 +1115,35 @@ h6 {
   }
 }
 
+/* Services */
+@media (max-width: 600px) {
+  .services__items {
+    display: block;
+  }
+  .services__item {
+    max-width: 100%;
+    min-height: 365px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .services__item-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* Slider */
+@media (max-width: 414px) {
+  .slider__title {
+    font-size: 24px;
+  }
+  .slider__text {
+    font-size: 16px;
+  }
+}
+
+/* Header */
 @media (max-width: 398px) {
   .header__btn::before {
     display: block;
@@ -1093,10 +1156,11 @@ h6 {
   }
 }
 
+/* Header */
 @media (min-width: 698px) {
   .menu ul {
     display: block !important;
   }
 }
 
-/* Slider */
+/*</MEDIA>============================================================================================*/
